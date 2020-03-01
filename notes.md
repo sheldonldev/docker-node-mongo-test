@@ -99,7 +99,7 @@ docker-compose --version
 # ./
 sudo docker-compose up
 # Ctl + C to exit
-# if want it run background 
+# if want it run background
 sudo docker-compose up -d
 
 # check in localhost:80
@@ -109,3 +109,12 @@ sudo docker-compose down
 ```
 
 - Push this dir to github
+
+- Deploy to Server:
+
+    - Open a VPS
+    - [Install docker](https://hub.docker.com/search?q=&type=edition&offering=community&sort=updated_at&order=desc)
+    - [Install docker-composer](https://docs.docker.com/compose/install/)
+    - pull repo
+    - run `docker-compose up`
+    - checke http://domain.name
