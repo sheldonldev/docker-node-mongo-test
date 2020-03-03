@@ -112,9 +112,9 @@ sudo docker-compose down
 
 - Deploy to Server:
 
-    - Open a VPS
-    - [Install docker](https://hub.docker.com/search?q=&type=edition&offering=community&sort=updated_at&order=desc)
-    - [Install docker-composer](https://docs.docker.com/compose/install/)
-    - pull repo
-    - run `docker-compose up`
-    - checke http://domain.name
+  - Open a VPS
+  - [Install docker](https://hub.docker.com/search?q=&type=edition&offering=community&sort=updated_at&order=desc)
+  - [Install docker-composer](https://docs.docker.com/compose/install/)
+  - pull repo
+  - run `docker-compose up`
+  - checke http://domain.name
